@@ -210,3 +210,30 @@ footer .arrow-area .arrow{
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+
+@media(max-width: 1000px) {
+    header .middle {
+        display: none;
+    }
+
+    header .rightside li {
+        display: none; /*Deixo de exibir as LI do rightside*/
+    }
+    
+    header .rightside li.menu-icon {
+        display: block; /*Faço com que a li com a classe menu aparaça*/
+    }
+
+}
+
+@media(max-width:600px) {
+    footer .buttons-area {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .buttons-area a {
+        width: 90%;
+    }
+
+}
