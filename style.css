@@ -107,7 +107,6 @@ main {
 
 main .info {
     height: 45vh;
-    border: 1px solid red;
 
     display: flex;
     flex-direction: column;
@@ -132,13 +131,11 @@ main .info h2 {
 
 main .info h2 a {
     color: var(--h2-color); 
+    transition: all 0.3s ease-in;
 }
 
 main .info h2 a:hover{
     color: var(--h2link-color);
-    text-decoration-style: double solid;
-
-    border-bottom: 1px solid var(--h2link-color);
 }
 
 /* Footer */
